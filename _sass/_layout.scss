@@ -240,3 +240,24 @@
         }
     }
 }
+.index-left-column {
+  width: 100%;
+  @include media-query($on-laptop) {
+      width: 80%;
+  }
+}
+
+.index-right-column {
+  width: 100%;
+  span, button {
+    width: 50%;
+    padding: 10%;
+  }
+
+  @include media-query($on-laptop) {
+      width: 20%;
+    span, button {
+      width: 100%;
+    }
+  }
+}

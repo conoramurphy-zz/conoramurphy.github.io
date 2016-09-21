@@ -1,4 +1,5 @@
 # Site settings
+mini-title: Lets build things, better
 title: Conor Murphy - Product Design and Development Contractor
 email: conormurphy@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -10,3 +11,4 @@ github_username:  conoramurphy
 
 # Build settings
 markdown: kramdown
+encoding: utf-8
