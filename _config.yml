@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   A CV, portfolio and blog for Conor Murphy. A Product Design Contractor in Dublin, Ireland.
 baseurl: ""
 url: "http://itsconor.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: aguycalledconor
+github_username:  conoramurphy
 
 # Build settings
 markdown: kramdown
