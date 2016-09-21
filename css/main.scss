@@ -15,10 +15,10 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$background-color: #fffffe;
-$theme-color:      #5B4CFF;
-$accent-color:     #A198FF;
-$text-color:       #444;
+$background-color: #5B4CFF;
+$base-color:       #fffffe;
+$accent-color:     #FF8600;
+$base-dark-color:  #111;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -45,6 +45,17 @@ $on-laptop:        800px;
     }
 }
 
+@mixin max-media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin min-media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

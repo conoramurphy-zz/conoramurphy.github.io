@@ -33,7 +33,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $base-dark-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -115,7 +115,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $base-dark-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -242,7 +242,7 @@
 }
 .index-left-column {
   width: 100%;
-  @include media-query($on-laptop) {
+  @include min-media-query($on-laptop) {
       width: 80%;
   }
 }
@@ -254,7 +254,7 @@
     padding: 10%;
   }
 
-  @include media-query($on-laptop) {
+  @include min-media-query($on-laptop) {
       width: 20%;
     span, button {
       width: 100%;

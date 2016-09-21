@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
+    color: $base-dark-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -29,7 +29,16 @@ body {
   font-family: $styled-font-family;
   font-size: 32px;
   font-weight: semi-bold;
-  color: $theme-color;
+  color: $base-color;
+  a {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: $accent-color;
+    color: $base-color
+  }
+  a:visited {
+    color: $base-color
+  }
 }
 
 
@@ -102,12 +111,19 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($accent-color, 5%);
+        color: darken($accent-color, 10%);
     }
 
     &:hover {
-        color: $text-color;
+        color: lighten($accent-color, 10%);
         text-decoration: underline;
+    }
+
+    &.plain {
+      color: $base-dark-color;
+      &:hover {
+        color: lighten($base-dark-color, 10%);
+      }
     }
 }
 
@@ -207,7 +223,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $base-dark-color;
         }
     }
 }
