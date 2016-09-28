@@ -8,14 +8,16 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+a, i {
+  text-decoration: none !important; //TODO
+}
 
 /**
  * Basic styling
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $base-dark-color;
+    color: $grey-color-light;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -25,8 +27,8 @@ body {
     font-kerning: normal;
 
     & .blog-page-content {
-      color: $background-color$base-dark-color;
-      background-color: $grey-color;
+      color: $background-color;
+      background-color: $grey-color-light;
     }
 }
 
