@@ -210,18 +210,19 @@
 .post-title {
     font-family: $styled-font-family;
     color: $base-dark-color;
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 42px;
     }
 }
 
 .post-content {
     margin-bottom: $spacing-unit;
     max-width: 600px;
+    color: $base-dark-color;
 
     font-size: 18px;
 
