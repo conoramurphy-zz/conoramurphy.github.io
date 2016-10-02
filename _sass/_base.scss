@@ -17,34 +17,29 @@ a, i {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $grey-color-light;
-    background-color: $background-color;
+    background-color: $grey-color-light;
+    color: $theme-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-
-    & .blog-page-content {
-      color: $background-color;
-      background-color: $grey-color-light;
-    }
 }
 
 .styled-body {
   font-family: $styled-font-family;
   font-size: 32px;
   font-weight: semi-bold;
-  color: $base-color;
   a {
+    padding-top: 2px;
     padding-left: 10px;
     padding-right: 10px;
     background: $accent-color;
-    color: $base-color
+    color: $grey-color-light
   }
   a:visited {
-    color: $base-color
+    color: $grey-color-light;
   }
   @media screen and (max-width: 800px) {
     font-size: 20px;
