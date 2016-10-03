@@ -2,11 +2,17 @@
  * Site header
  */
 .site-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: $grey-color-light;
     border-bottom: 1px solid $grey-color;
     min-height: 56px;
+}
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+.blog-page-content {
+  margin-top: 54px;
 }
 
 .site-title {
@@ -98,13 +104,20 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
     color: $base-dark-color;
+
+    @include media-query($on-laptop) {
+      padding: $spacing-unit 0;
+    }
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: $spacing-unit / 2;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
 }
 
 .contact-list,
@@ -176,7 +189,7 @@
 }
 
 .post {
-  margin-top: 32px;
+  padding-top: 32px;
 }
 
 .post-list {
@@ -232,26 +245,26 @@
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 28px;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 32px;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 22px;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 26px;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 18px;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: 20px;
         }
     }
 }
