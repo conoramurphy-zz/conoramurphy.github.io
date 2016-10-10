@@ -11,10 +11,6 @@
     min-height: 56px;
 }
 
-.blog-page-content {
-  margin-top: 54px;
-}
-
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -97,6 +93,14 @@
     }
 }
 
+.centre-contents {
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio-work {
+  margin-top: 80px;
+}
 
 
 /**
@@ -106,9 +110,6 @@
     border-top: 1px solid $grey-color-light;
     color: $base-dark-color;
 
-    @include media-query($on-laptop) {
-      padding: $spacing-unit 0;
-    }
 }
 
 .footer-heading {
@@ -180,8 +181,8 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
+.hero-section-header {
+    margin-top: $spacing-unit;
 }
 
 .page-heading {

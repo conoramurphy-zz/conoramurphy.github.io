@@ -1,0 +1,28 @@
+<div class="portfolio-work wrapper">
+
+  <ul class="post-list">
+    <div class="centre-contents">
+      <h2 id="Portfolio">Portfolio Work</h2>
+    </div>
+
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+    <div class="centre-contents">
+      <h2 id="Portfolio">Thoughts on Product Development</h2>
+    </div>
+
+    <li>
+      <span class="post-meta">Medium Blog Post</span>
+      <h2>
+        <a class="post-link" href="https://medium.com/@aguycalledconor/the-most-effective-1-in-product-development-d66878d9d2c5#.d69i3ga9g">The Most Effective 1% Of My Work</a>
+      </h2>
+    </li>
+  </ul>
+</div>
