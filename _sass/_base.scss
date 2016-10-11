@@ -101,8 +101,9 @@ li {
     }
 }
 
-
-
+.img-title {
+  font-size: small;
+}
 /**
  * Headings
  */
@@ -110,6 +111,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+p {
+  color: $grey-color-dark;
+}
 
 
 /**
@@ -120,7 +124,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($accent-color, 10%);
+      color: $accent-color;
     }
 
     &:hover {
