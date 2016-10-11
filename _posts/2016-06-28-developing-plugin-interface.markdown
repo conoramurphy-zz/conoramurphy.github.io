@@ -7,7 +7,7 @@ categories: Product
 
 ### Problem
 
-The company had built up an extended library of plugins and options for integrating with third party services. These were of varying complexity from a simple configured url endpoint to a whole suite of software for integrating with AWS. However they were collected in different places like the docs for the configured URL, an integrations page for the biggest ones and the alerting interface for endpoints you can send alerts to.
+Hosted Graphite had built up an extended library of plugins and options for integrating with third party services. These were of varying complexity from a simple configured url endpoint to a whole suite of software for integrating with AWS. However they were collected in different places like the docs for the configured URL, an integrations page for the biggest ones and the alerting interface for endpoints you can send alerts to.
 
 We also did not have a lot of spare time to fix this.
 

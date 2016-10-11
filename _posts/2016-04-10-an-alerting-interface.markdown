@@ -65,13 +65,13 @@ After this work we arrived at the end of the MVP project and it was moved out of
 
 #### Helping users to start Using Alerting
 
-A few big customers relied on this quite quickly, but strangely enough there was not a lot of mid level usage (i.e. people using it for 4-10 critical alerts, what we considered it most useful for). It was a top level menu item, everyone was included in the mail campaigns for it and it was included in everyones payment plans and it was bloody useful, so why weren't they using it! So the And the product became more reliable, more usable and more beautiful, but the usage never changed. People just weren't setting up that first alert. Eventually we paused improving the alerting interface and we fixed this bigger issue by tackling... the home-screen.
+A few big customers relied on this quite quickly, but strangely enough there was not a lot of mid level usage (i.e. people using it for 4-10 critical alerts, what we considered it most useful for). It was a top level menu item, everyone was included in the mail campaigns for it and it was included in everyone's payment plans and it was bloody useful, so why weren't they using it! So the And the product became more reliable, more usable and more beautiful, but the usage never changed. People just weren't setting up that first alert. Eventually we paused improving the alerting interface and we fixed this bigger issue by tackling... the home-screen.
 
-The homescreen for our app was always a stop off until you launched Grafana for 99% of use cases. And under that confused purpose it was a jumble of bits and bobs of the admin interface. So, in a bid to just get something tested quickly, I knocked up a a few dozen quick iterations for new concept for a homescreen. The top row of this is now focused on informing them what they had paid for and used.
+The home screen for our app was always a stop off until you launched Grafana for 99% of use cases. And under that confused purpose it was a jumble of bits and bobs of the admin interface. So, in a bid to just get something tested quickly, I knocked up a a few dozen quick iterations for new concept for a home screen. The top row of this is now focused on informing them what they had paid for and used.
 
 ![Homescreen Row Showing What You've Used]({{ site.baseurl }}/assets/alertHomeScreen.png)
 <div class="centre-contents">
-  <span class="img-title">Homescreen row showing what you've used as part of your subscription</span>
+  <span class="img-title">Home screen row showing what you've used as part of your subscription</span>
 </div>
 
 After this few days of work, in a matter of a few weeks there was an increase from a few big customers to nearer 50-100 medium customers  using the feature properly as well.
