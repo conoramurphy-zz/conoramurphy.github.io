@@ -10,7 +10,7 @@ As a graphing company people were always seeing interesting problems in their gr
 
 #### Responsibilities
 
-All the UX design, visual design and frontend engineering.
+All the UX design, visual design and front-end engineering.
 
 #### Technology
 

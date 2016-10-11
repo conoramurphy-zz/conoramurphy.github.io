@@ -13,7 +13,7 @@ We also did not have a lot of spare time to fix this.
 
 #### Responsibilities
 
-The idea, feature list, UX, visual design and frontend engineering.
+The idea, feature list, UX, visual design and front-end engineering.
 
 #### Technology
 
