@@ -69,7 +69,7 @@ A few big customers relied on this quite quickly, but strangely enough there was
 
 The homescreen for our app was always a stop off until you launched Grafana for 99% of use cases. And under that confused purpose it was a jumble of bits and bobs of the admin interface. So, in a bid to just get something tested quickly, I knocked up a a few dozen quick iterations for new concept for a homescreen. The top row of this is now focused on informing them what they had paid for and used.
 
-![Homescreen Row Showing What You've Used]({{ site.baseurl }}/assets/alertHomescreen.png)
+![Homescreen Row Showing What You've Used]({{ site.baseurl }}/assets/alertHomeScreen.png)
 <div class="centre-contents">
   <span class="img-title">Homescreen row showing what you've used as part of your subscription</span>
 </div>
