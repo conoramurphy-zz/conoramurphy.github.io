@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Moving from Integrations to Plugins"
+title:  "A quick change; moving from integrations to plugins"
 date:   2016-09-28 16:54:00 +0100
-categories: Product
+company: Hosted Graphite
+categories: PM, Design, Engineering
 ---
 
 ### Problem
@@ -35,12 +36,12 @@ The first thing I had to do was convince our team that broadening of our conserv
 
 #### Results
 
-![Add Ons Before Change]({{ site.baseurl }}/assets/addOnsBefore.png)
 <div class="centre-contents">
   <span class="img-title">Data Sources Before Change</span>
 </div>
+![Add Ons Before Change]({{ site.baseurl }}/assets/addOnsBefore.png)
 
-![Sketches showing what short of Alerting interface]({{ site.baseurl }}/assets/addonsFinished.png)
 <div class="centre-contents">
   <span class="img-title">Add Ons After Change</span>
 </div>
+![Sketches showing what short of Alerting interface]({{ site.baseurl }}/assets/addonsFinished.png)

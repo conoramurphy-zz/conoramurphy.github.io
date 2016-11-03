@@ -15,13 +15,16 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$theme-color: #3498DB;
+$theme-color:      #3498DB;
 $accent-color:     #FF8600;
-$base-dark-color:  #444;
+$base-dark-color:  #222;
 
-$grey-color:       #AAA;
-$grey-color-light: #fefefe;
+$body-text:        #fff;
+
+$grey-color:       #eee;
+$grey-color-light: #fff;
 $grey-color-dark:  #555;
+$grey-color-med:   #968B8C;
 
 // Width of the content area
 $content-width:    1000px;
@@ -60,6 +63,5 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
-        "syntax-highlighting"
+        "layout"
 ;

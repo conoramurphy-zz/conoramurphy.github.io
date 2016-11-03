@@ -21,7 +21,7 @@
 
     &,
     &:visited {
-        color: $theme-color;
+        color: #dd686b;;
     }
 }
 
@@ -34,7 +34,7 @@
     }
 
     .page-link {
-        color: $grey-color-dark;
+        color: $body-text;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -66,7 +66,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $body-text;
                 }
             }
         }
@@ -99,7 +99,7 @@
 }
 
 .portfolio-work {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 
@@ -107,7 +107,9 @@
  * Site footer
  */
 .site-footer {
+    padding: 20px 0px;
     border-top: 1px solid $grey-color-light;
+    border-bottom: 1px solid $grey-color-light;
     color: $base-dark-color;
 
 }
@@ -197,9 +199,42 @@
     margin-left: 0;
     list-style: none;
 
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+
     > li {
-        margin-bottom: $spacing-unit;
+        width: 300px; 
+        height: 180px; 
+        margin: 0 1% 24px;
+        padding: 20px 40px;
+        background: $grey-color;
+        box-shadow: 0 10px 20px rgba($accent-color,0.19), 0 6px 6px rgba($accent-color,0.23);
+        border: none;
+        border-radius: 3px;
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        &:hover {
+            box-shadow: 0 14px 28px rgba($accent-color ,0.2), 0 10px 10px rgba($accent-color ,0.3);
+        }
+        .post-meta {
+            color: $grey-color-med;
+        }
     }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+}
+
+li.flex-padder {
+    height: 0;
+    padding: 0;
 }
 
 .post-meta {
@@ -210,6 +245,7 @@
 .post-link {
     display: block;
     font-size: 24px;
+    text-decoration: none;
 }
 
 
@@ -233,10 +269,13 @@
     }
 }
 
+h2, h3, h4 {
+    color: $base-dark-color;
+}
+
 .post-content {
     margin-bottom: $spacing-unit;
     max-width: 600px;
-    color: $base-dark-color;
 
     font-size: 18px;
 

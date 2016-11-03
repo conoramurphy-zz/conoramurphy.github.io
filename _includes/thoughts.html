@@ -2,7 +2,7 @@
 
   <ul class="post-list">
     <div class="centre-contents">
-      <h2 id="Portfolio">Portfolio Work</h2>
+      <h2 class="section-title" id="Portfolio">Portfolio Work</h2>
     </div>
 
     {% for post in site.posts %}
@@ -12,10 +12,17 @@
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <br>
+        <span class="post-meta">{{ post.company }}</span>
+        <br>
+        <span class="post-meta">{{ post.categories }}</span>
       </li>
     {% endfor %}
+    <li class="flex-padder"></li>
+    <li class="flex-padder"></li>
+    <li class="flex-padder"></li>
     <div class="centre-contents">
-      <h2 id="Portfolio">Thoughts on Product Development</h2>
+      <h2 class="section-title" id="Portfolio">Thoughts on Product Development</h2>
     </div>
 
     <li>
@@ -24,5 +31,8 @@
         <a class="post-link" href="https://medium.com/@aguycalledconor/the-most-effective-1-in-product-development-d66878d9d2c5#.d69i3ga9g">The Most Effective 1% Of My Work</a>
       </h2>
     </li>
+    <li class="flex-padder"></li>
+    <li class="flex-padder"></li>
+    <li class="flex-padder"></li>
   </ul>
 </div>

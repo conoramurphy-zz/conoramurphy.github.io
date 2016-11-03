@@ -9,7 +9,7 @@ dl, dd, ol, ul, figure {
 }
 
 a, i {
-  text-decoration: none !important; //TODO
+  text-decoration: underline; //TODO
 }
 
 /**
@@ -17,18 +17,26 @@ a, i {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    background-color: white;
-    color: $theme-color;
+    color: $body-text;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    background: -webkit-linear-gradient(#dd686b, #BE666B);
+    background: -o-linear-gradient(#dd686b, #BE666B);
+    background: linear-gradient(#BE666B, #dd686b);
+
+    &.body-blog {
+        background: #968b8c;
+        background-color: #968b8c;
+    }
+
 }
 
 .hero-section {
-  background-color: $grey-color-light;
 }
 
 .styled-body {
@@ -103,6 +111,7 @@ li {
 
 .img-title {
   font-size: small;
+  margin-bottom: 30px;
 }
 /**
  * Headings
@@ -112,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: $grey-color-dark;
+  color: $body-text;
 }
 
 
@@ -120,8 +129,9 @@ p {
  * Links
  */
 a {
+    cursor: pointer;
     color: $accent-color;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
       color: $accent-color;
@@ -137,6 +147,7 @@ a {
       &:hover {
         color: lighten($base-dark-color, 10%);
       }
+        text-decoration: none;
     }
 }
 
