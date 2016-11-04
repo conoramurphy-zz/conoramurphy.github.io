@@ -25,13 +25,16 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 
-    background: -webkit-linear-gradient(#dd686b, #BE666B);
-    background: -o-linear-gradient(#dd686b, #BE666B);
-    background: linear-gradient(#BE666B, #dd686b);
+    background: -webkit-linear-gradient($theme-color, $accent-color);
+    background: -o-linear-gradient($theme-color, $accent-color);
+    background: linear-gradient($theme-color, $accent-color);
 
     &.body-blog {
-        background: #968b8c;
-        background-color: #968b8c;
+        background: lighten($accent-color, 40%);
+
+        p, span {
+            color: $base-dark-color;
+        }
     }
 
 }
