@@ -9,8 +9,8 @@
     background-color: $grey-color-light;
     border-bottom: 1px solid $grey-color;
     min-height: 56px;
-    box-shadow: 0 5px 10px rgba($grey-color,0.19), 0 3px 3px rgba($grey-color,0.23);
-}
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
 
 .site-title {
     font-size: 26px;
@@ -211,7 +211,7 @@
     -moz-flex-flow: row wrap;
 
     > li {
-        width: 300px; 
+        width: 280px; 
         height: 180px; 
         margin: 0 1% 24px;
         padding: 20px 40px;
