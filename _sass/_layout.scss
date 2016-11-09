@@ -7,9 +7,13 @@
     right: 0;
     left: 0;
     background-color: $grey-color-light;
-    border-bottom: 1px solid $grey-color;
     min-height: 56px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+    background: -webkit-linear-gradient(left top, rgba($theme-color, 0.9) , rgba(#c91f45, 0.9));
+    background: -o-linear-gradient(left top, $theme-color , #c91f45);
+    background: linear-gradient(eft top, $theme-color , #c91f45);
+
   }
 
 .site-title {
@@ -22,7 +26,14 @@
 
     &,
     &:visited {
-        color: #dd686b;;
+        padding-top: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #fff;
+    }
+
+    &:hover {
+        background: #FF8600;
     }
 }
 
@@ -210,7 +221,11 @@
     -webkit-flex-flow: row wrap;
     -moz-flex-flow: row wrap;
 
-    > li {
+    a, a:hover {
+        text-decoration: none;
+    }
+
+    li {
         width: 280px; 
         height: 180px; 
         margin: 0 1% 24px;
@@ -220,9 +235,11 @@
         border: none;
         border-radius: 3px;
         transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
         &:hover {
-            box-shadow: 0 14px 28px rgba($accent-color ,0.2), 0 10px 10px rgba($accent-color ,0.3);
+            box-shadow: 0 19px 38px rgba($accent-color ,0.8), 0 15px 30px $accent-color;
         }
+
         .post-meta {
             color: $grey-color-med;
         }

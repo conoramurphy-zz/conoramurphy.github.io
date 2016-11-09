@@ -6,33 +6,35 @@
     </div>
 
     {% for post in site.posts %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <h2 class="post-link">
+          {{ post.title }}
         </h2>
-        <br>
-        <span class="post-meta">{{ post.company }}</span>
+        <span class="post-meta">Company : {{ post.company }}</span>
         <br>
         <span class="post-meta">{{ post.categories }}</span>
       </li>
+    </a>
     {% endfor %}
+
     <li class="flex-padder"></li>
     <li class="flex-padder"></li>
     <li class="flex-padder"></li>
+    
     <div class="centre-contents">
       <h2 class="section-title" id="Portfolio">Thoughts on Product Development</h2>
     </div>
 
-    <li>
-      <span class="post-meta">Medium Blog Post</span>
-      <h2>
-        <a class="post-link" href="https://medium.com/@aguycalledconor/the-most-effective-1-in-product-development-d66878d9d2c5#.d69i3ga9g">The Most Effective 1% Of My Work</a>
-      </h2>
-    </li>
-    <li class="flex-padder"></li>
-    <li class="flex-padder"></li>
-    <li class="flex-padder"></li>
+    <a href="https://medium.com/@aguycalledconor/the-most-effective-1-in-product-development-d66878d9d2c5#.d69i3ga9g">
+      <li>
+        <span class="post-meta">Medium Blog Post</span>
+        <h2 class="post-link">
+          The Most Effective 1% Of My Work
+        </h2>
+      </li>
+    </a>
+    
   </ul>
 </div>
