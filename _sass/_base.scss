@@ -34,7 +34,7 @@ body {
     &.body-blog {
         background: #fcfcfc;
 
-        p, span {
+        p, span, ul, li {
             color: $base-dark-color;
         }
     }
