@@ -76,4 +76,4 @@ The home screen for our app was, for 99% of use cases, a minor stop off point un
 </div>
 ![Homescreen Row Showing What You've Used]({{ site.baseurl }}/assets/alertHomeScreen.png)
 
-In a matter of a few weeks there was an increase from just a few big customers to nearer 50-100 medium customers as well using alerting regularly. So the homescreen alterations stayed and refined further.
+In a matter of a few weeks there was an increase from just a few big customers to nearer 50-100 medium customers as well using alerting regularly.
